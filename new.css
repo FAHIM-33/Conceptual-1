@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    /* border: 1px solid red; */
 
 }
 body{
@@ -41,9 +42,35 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 100vh;
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg,#181818,#5f5f5f)
 }
-
+.left-banner-section{
+    color: white;
+}
 
 .banner-right-image{
     width: 400px;
+}
+
+.title{
+    font-size: 3.2rem;
+}
+
+.explore{
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: red;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+.explore:hover{
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.493);
+}
+.discription{
+    margin: 2rem 0;
 }

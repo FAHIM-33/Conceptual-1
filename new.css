@@ -49,16 +49,13 @@ body{
 .left-banner-section{
     color: white;
 }
-
 .banner-right-image{
     width: 400px;
 }
-
 .title{
     font-size: 3.2rem;
 }
-
-.explore{
+.explore,.contact-us{
     padding: 10px 15px;
     font-size: 1rem;
     font-weight: 500;
@@ -67,10 +64,51 @@ body{
     border-radius: 5px;
     color: white;
 }
-.explore:hover{
+.explore:hover,.contact-us:hover{
     cursor: pointer;
     background-color: rgba(255, 0, 0, 0.493);
 }
 .discription{
     margin: 2rem 0;
+}
+.about-pic{
+    width: 300px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-left{
+    margin: 2rem 4rem;
+
+}
+.about-right{
+    margin: 0 4rem;
+}
+.hhh{
+    margin-bottom: 1rem;
+}
+.contact-us{
+    margin-top: 1rem;
+}
+.about-h{
+    text-align: center;
+    padding: 20px;
+}
+.main-container{
+    background-color: #333;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+}
+.icon-image{
+    width: 4rem;
+}
+.box{
+    background-color: #111;
+    border-radius: 10px;
+    margin: 0 5rem;
 }

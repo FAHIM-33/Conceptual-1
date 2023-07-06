@@ -4,6 +4,46 @@
 
 }
 body{
-    background-color: black;
+    /* color: white; */
+}
+.logo-pic{
+    width: 150px;
+    padding: 20px;
+    /* border: 1px solid yellow; */
+}
+
+.menu-container{
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid orange; */
+}
+.nav-items{
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
     color: white;
+    /* border: 1px solid red; */
+}
+.items{
+    font-size: 1.1rem;
+
+}
+.items:hover{
+    color: coral;
+    cursor: pointer;
+}
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.banner-right-image{
+    width: 400px;
 }
